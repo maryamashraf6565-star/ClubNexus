@@ -68,22 +68,42 @@ The project is built with **Spring Boot** and follows a clean, layered architect
 
 ## 📂 Project Structure
 clubnexus/
+
 ├── src/
+
 │   ├── main/
+
 │   │   ├── java/com/clubnexus/
+
 │   │   │   ├── config/          # Security, JWT, Redis, WebSocket configs
+
 │   │   │   ├── controller/      # REST endpoints (User, Club, News, Membership)
+
 │   │   │   ├── service/         # Business logic layer
+
 │   │   │   ├── repository/      # JPA repositories
+
 │   │   │   ├── entity/          # JPA entities (User, Club, News, Membership)
+
 │   │   │   ├── dto/             # Data Transfer Objects (request/response)
+
 │   │   │   ├── exception/       # Custom exceptions & global handler
+
 │   │   │   └── utils/           # JWT utility, validation helpers
+
 │   │   └── resources/
+
 │   │       ├── application.yml  # Main config (profiles, DB, JWT, Redis)
+
 │   │       └── db/migration/    # Flyway/Liquibase scripts (optional)
+
 │   └── test/                    # Unit & integration tests
+
 ├── Dockerfile
+
 ├── docker-compose.yml
+
 ├── README.md
+
 └── pom.xml / build.gradle
+
