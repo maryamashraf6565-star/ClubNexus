@@ -56,7 +56,7 @@ The project is built with **Spring Boot** and follows a clean, layered architect
 | :--- | :--- |
 | **Backend Framework** | Spring Boot 3.2+ (MVC) |
 | **Security** | Spring Security 6, JWT (jjwt), BCrypt |
-| **Database** | PostgreSQL / MySQL (with Spring Data JPA) |
+| **Database** | MySQL (with Spring Data JPA) |
 | **Caching** | Spring Cache + Redis (Level 2) |
 | **Real-Time** | WebSocket / Server-Sent Events (Level 2) |
 | **Containerization** | Docker & Docker Compose |
@@ -93,7 +93,7 @@ clubnexus/
 
 │   │   └── resources/
 
-│   │       ├── application.yml  # Main config (profiles, DB, JWT, Redis)
+│   │       ├── application.properties  # Main config (profiles, DB, JWT, Redis)
 
 │   │       └── db/migration/    # Flyway/Liquibase scripts (optional)
 
