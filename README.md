@@ -83,9 +83,11 @@ clubnexus/
 
 │   │   │   ├── repository/      # JPA repositories
 
-│   │   │   ├── entity/          # JPA entities (User, Club, News, Membership)
+│   │   │   ├── Model/         
 
-│   │   │   ├── dto/             # Data Transfer Objects (request/response)
+|   │   │       ├── dto/            # Data Transfer Objects (request/response)
+
+|   │   │       └── Entity/         # JPA entities (User, Club, News, Membership)
 
 │   │   │   ├── exception/       # Custom exceptions & global handler
 
@@ -98,10 +100,6 @@ clubnexus/
 │   │       └── db/migration/    # Flyway/Liquibase scripts (optional)
 
 │   └── test/                    # Unit & integration tests
-
-├── Dockerfile
-
-├── docker-compose.yml
 
 ├── README.md
 
